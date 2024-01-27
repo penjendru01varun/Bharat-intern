@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+
+*{
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    max-width: 1100px;
+    padding: 0 20px;
+    overflow: auto;
+}
+
+header{
+    padding:10px 0px;
+}
+
+#hero{
+    background: url(./img/ad.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+
+}
+
+i{
+    font-size: 17px;
+    padding: 0 5px;
+}
+
+#hero a{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+#hero ul {
+    list-style: none;
+    display: flex;
+}
+
+#hero ul li{
+    padding: 0 10px;
+}
+
+header .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar .heading h1{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+header .navbar a{
+    font-size:18px ;
+    font-weight: 400;
+}
+
+#hero .menu a:hover{
+    color:#A1E3D8 ;
+}
+
+.btn a{
+    background: #069A8E;
+    padding: 8px 20px;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.btn a:hover{
+    color: #069A8E !important;
+    background: #fff;
+    transition: all .3s ease-out;
+}
+
+.bg-primary{
+    color: #069A8E;
+}
+
+.nav-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    align-content: center;
+    height: 100vh;
+   
+}
+
+.nav-content h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+.nav-content h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+.nav-content p{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 0;
+    text-align: left;
+    padding-right: 380px;
+}
+#about{
+    padding-top:75px ;
+    background: #a1e3d85e;
+    height: 100vh;
+}
+.about{
+    height: 80vh;
+    display: flex;
+}
+.about .about-img{
+    background: url(./img/ad2.jpg) no-repeat center center/cover;
+    float: left;
+    /* display: flex; */
+    width: 50%;
+    height: 80%;
+    padding: 40px 60px;
+    border-radius: 10px;
+    margin: 40px 60px;
+}
+
+.about .about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    height: 100%;
+    width: 50%;
+    padding: 0 20px;
+}
+
+.about .about-content h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.about .about-content p{
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: rgb(60, 60, 60);
+}
+
+.about .about-content .btn{
+    margin: 20px 0;
+}
+
+
+
+#about a{
+    text-decoration: none;
+}
+
+#service{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 425px;
+    height: 50vh;
+}
+ #headone{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom:30px ;
+}
+
+#service a{
+    text-decoration: none;
+}
+
+
+
+#service .container{
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#service .container .btn {
+    margin: 30px 0;
+}
+
+.box #U {
+    color: #069A8E;
+    font-size: 35px;
+    margin:25px 0;
+    padding: 10px;
+}
+
+.box h5{
+    font-size:20px ;
+    margin-bottom: 25px;
+}
+
+.box p{
+    color: rgba(76, 76, 76, 0.727);
+    padding: 0 15px;
+}
+
+#contact{
+    background: #a1e3d85e;
+    padding: 40px 0;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #069A8E;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #069a8e64;
+  }
+
+#myfooter p{
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+    color: #fff;
+    background: #069A8E;
+}
+body{
+    background-color: dimgrey;
+}
